@@ -11,7 +11,8 @@ for key in d:
 # 通过collections.abc模块的Iterable类型判断可否迭代
 isinstance('abc', Iterable)
 
-#Python内置的enumerate函数可以把一个list变成索引-元素对，这样就可以在for循环中同时迭代索引和元素本身
+#Python内置的enumerate函数可以把一个list变成索引-元素对，
+# 这样就可以在for循环中同时迭代索引和元素本身
 
 for i, value in enumerate(['A', 'B', 'C']):
     print(i,value)
