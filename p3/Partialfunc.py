@@ -1,6 +1,5 @@
-
+import sys
 import functools
-
 
 print(int('123'))
 
